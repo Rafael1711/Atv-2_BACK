@@ -1,23 +1,23 @@
 [
     {
-        "id": 1,
+        "id": 2,
         "name": "Clarinete",
         "category": "Sopro",
-        "price": 123.0,
-        "description": "Madeiras"
-    },
-    {
-        "id": 2,
-        "name": "Tuba",
-        "category": "Sopro",
-        "price": 9000.0,
-        "description": "Metais"
+        "price": 7500.0,
+        "description": "Madeira"
     },
     {
         "id": 3,
         "name": "Violino",
         "category": "Cordas",
-        "price": 4000.0,
-        "description": "Família das madeiras"
+        "price": 7000.0,
+        "description": "Fam\u00edlia das cordas"
+    },
+    {
+        "id": 4,
+        "name": "Sax tenor",
+        "category": "Sopro",
+        "price": 8000.0,
+        "description": "Fam\u00edlia do sax"
     }
 ]
