@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestão de Instrumentos Musicais</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>🎼 Instrumentos Musicais 🎼</h1>
+
+        <!-- Formulário de Cadastro -->
+        <div class="form-container">
+            <h2>Adicionar Instrumento</h2>
+            <form id="instrument-form">
+                <input type="text" id="name" placeholder="Nome" required>
+                <input type="text" id="category" placeholder="Categoria" required>
+                <input type="number" id="price" placeholder="Preço (R$)" step="0.01" required>
+                <textarea id="description" placeholder="Descrição"></textarea>
+                <button type="submit">Salvar</button>
+            </form>
+        </div>
+
+        <!-- Lista de Instrumentos -->
+        <div class="list-container">
+            <h2>Lista de Instrumentos</h2>
+            <div id="instrument-list"></div>
+        </div>
+
+        <!-- Detalhes do Instrumento (Modal) -->
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2 id="modal-title">Detalhes do Instrumento</h2>
+                <div id="modal-details"></div>
+            </div>
+        </div>
+        <!-- Modal de Edição -->
+        <div id="edit-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-edit">&times;</span>
+                <h2>Editar Instrumento</h2>
+                <form id="edit-form">
+                    <input type="text" id="edit-name" placeholder="Nome" required>
+                    <input type="text" id="edit-category" placeholder="Categoria" required>
+                    <input type="number" id="edit-price" placeholder="Preço (R$)" step="0.01" required>
+                    <textarea id="edit-description" placeholder="Descrição"></textarea>
+                    <button type="submit">Salvar Alterações</button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Clarinete",
+        "category": "Sopro",
+        "price": 123.0,
+        "description": "Madeiras"
+    },
+    {
+        "id": 2,
+        "name": "Tuba",
+        "category": "Sopro",
+        "price": 9000.0,
+        "description": "Metais"
+    },
+    {
+        "id": 3,
+        "name": "Violino",
+        "category": "Cordas",
+        "price": 4000.0,
+        "description": "Família das madeiras"
+    }
+]
